@@ -1,0 +1,58 @@
+import { Education } from '../../types/Education'
+
+export const EDUCATIONS: Education[] = [
+   {
+      company: 'Full-Stack Development Courses – GoIT',
+      badges: [],
+      title: 'Courses',
+      logo: undefined,
+      start: '2026',
+      end: '2027',
+      description: `Completed comprehensive online training in full-stack web development, covering front-end and back-end technologies, including HTML, CSS, JavaScript, React, Next.js, Node.js and database management. Gained hands-on experience through practical projects and real-world applications.`,
+   },
+   {
+      company: 'UDEMY course "Git & GitHub"',
+      badges: [],
+      title: 'Courses',
+      logo: undefined,
+      start: '08.2025',
+      end: '09.2025',
+      description: `Studied Git and GitHub in depth, mastering version control, branching, and collaborative workflows.`,
+   },
+   {
+      company: 'UDEMY course "Full CSS"',
+      badges: [],
+      title: 'Courses',
+      logo: undefined,
+      start: '06.2025',
+      end: '07.2025',
+      description: `Studied CSS in depth, mastering layouts, responsive design, and styling techniques.`,
+   },
+   {
+      company: 'Cracow, IT Technical College',
+      badges: [],
+      title: 'College',
+      logo: undefined,
+      start: '2022',
+      end: '2026',
+      description: `Informatical Technology`,
+   },
+   {
+      company: '“Mobile” Lyceum of Pisochyn',
+      badges: [],
+      title: 'Middle school',
+      logo: undefined,
+      start: '2022',
+      end: '2024',
+      description: `Full secondary education`,
+   },
+   {
+      company: 'Kharkiv Gymnasium No. 55',
+      badges: [],
+      title: 'Middle school',
+      logo: undefined,
+      start: '2013',
+      end: '2022',
+      description: `Basic secondary education online`,
+   },
+]

@@ -3,8 +3,6 @@ import {
    faLinkedin,
    faGithub,
    faTelegram,
-   faNpm,
-   faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 import { SKILLS } from './SKILLS'
 import { LOCATIONS } from './LOCATIONS'
@@ -16,70 +14,48 @@ import { CONTRIBUTIONS } from './CONTRIBUTIONS'
 import { TECHNOLOGIES } from './TECHNOLOGIES'
 
 export const RESUME: Resume = {
-   firstName: 'Dmitrii',
-   lastName: 'Selikhov',
-   name: 'Dmitrii Selikhov',
-   nick: 'DI',
+   firstName: 'Alex',
+   lastName: 'Frolov',
+   name: 'Aleksandr Frolov',
+   nick: 'alexfrxx',
    gender: 'male',
-   nameLink: 'https://www.linkedin.com/in/dimetrix',
+   nameLink: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
 
    initials: 'DS',
-   initialsLink: 'https://www.linkedin.com/in/dimetrix',
+   initialsLink: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
 
    locations: LOCATIONS,
    languages: LANGUAGES,
 
-   avatar: '/me.jpg',
-   avatarLink: 'https://www.linkedin.com/in/dimetrix',
+   avatar: '/me.jpeg',
+   avatarLink: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
 
-   summary: 'CTO, Software Architect, Technical Lead',
-   summaryLink: 'https://www.linkedin.com/in/dimetrix',
+   summary: 'Frontend Developer & AI Automator & UI/UX Enthusiast',
+   summaryLink: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
 
    about: [
       {
          description:
-            "With a **Master's degree in Mathematics and Computer Science** and over **15 years of professional experience (including MBA)** in both startups and enterprises, I am a technical strategic leader specializing in guiding products from initial concept to successful launch. I excel in managing teams of up to 100 members, fostering high-performance cultures, and driving innovation. My collaborative leadership style enables me to engage effectively in both technical and business discussions, whether internally or with clients. My expertise spans **AI** and **ML** sectors, leveraging technologies such as JavaScript/TypeScript (React.js, Next.js, Vue.js, Nuxt.js, Svelte, Stencil, Angular) with CSR/SSR/SSG/SPA/PWA, alongside back-end systems using Node.js, Nest.js, Go, Rust, and Move. I am experienced in monolithic, microservices, and serverless architectures deployed on AWS, Azure, and Google Cloud platforms.",
+            'From an early age, I’ve been passionate about creating beautiful and functional websites. I started with marketing and landing pages on Tilda and Taplink, which helped me understand the value of design and user experience. At 16, I began studying frontend development, and since then I’ve been fully focused on web development. I’m constantly learning new things, improving my skills, and enjoying the process of building high-quality interfaces. In an era where AI writes code, it’s important to think not only about how it works, but also about how people use it. I pay special attention to usability, simplicity, and user experience.',
       },
       {
          title: 'Competencies',
          items: [
+            'Frontend Development',
+            'Fullstack Development',
             'Architecture',
-            'Integration Strategy',
-            '0 - 1 Product Development',
-            'API Design and Development',
             'UI/UX Design and Development',
             'Software Development',
-            'Global/Local People Management (Onshore/Offshore)',
-            'Product/Project Management',
             'Process Structuration and Optimization',
             'Executive Leadership',
-            'Continuous Improvements',
-            'Professional Services',
          ],
       },
       {
          title: 'Stacks',
-         items: [
-            'MERN',
-            'MEAN',
-            'LAMP',
-            'JAM',
-            'MEVN',
-            'PERN',
-            'ROR',
-            'MEEN',
-            'ELK',
-            'WAMP',
-            'XAMPP',
-            'TALL',
-            'PWA',
-            'LEAN',
-            'FARM',
-            'SERN',
-         ],
+         items: ['JAM'],
       },
    ],
-   aboutLink: 'https://www.linkedin.com/in/dimetrix',
+   aboutLink: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
 
    help: [
       {
@@ -107,47 +83,32 @@ export const RESUME: Resume = {
          ],
       },
    ],
-   helpLink: 'https://www.linkedin.com/in/dimetrix',
+   helpLink: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
 
-   website: 'https://www.linkedin.com/in/dimetrix',
+   website: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
 
    contact: {
-      website: 'https://www.linkedin.com/in/dimetrix',
-      call: 'https://calendly.com/dmitry-selikhov',
-      email: 'dmitrii.selikhov@gmail.com',
-      phone: '+1 829 957 6440',
-      cv: 'https://dmitrii-selikhov.vercel.app/cv.pdf',
-      resume: 'https://dmitrii-selikhov.vercel.app/resume.pdf',
-      linkedin: 'https://www.linkedin.com/in/dimetrix',
-      github: 'https://github.com/idimetrix',
-      npm: 'https://www.npmjs.com/~dimetrix',
-      telegram: 'https://t.me/dmitrii_selikhov',
-      twitter: 'https://x.com/idimetrix',
+      website: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
+      email: 'fr.280907@gmail.com',
+      phone: '+48 511 206 751',
+      linkedin: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
+      github: 'https://github.com/alexfrxx',
+      telegram: 'https://t.me/alexFrxx',
       socials: [
          {
             name: 'LinkedIn',
-            url: 'https://www.linkedin.com/in/dimetrix',
+            url: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
             icon: faLinkedin,
          },
          {
             name: 'Github',
-            url: 'https://github.com/idimetrix',
+            url: 'https://github.com/alexfrxx',
             icon: faGithub,
          },
          {
-            name: 'Npm',
-            url: 'https://www.npmjs.com/~dimetrix',
-            icon: faNpm,
-         },
-         {
             name: 'Telegram',
-            url: 'https://t.me/dmitrii_selikhov',
+            url: 'https://t.me/alexFrxx',
             icon: faTelegram,
-         },
-         {
-            name: 'Twitter',
-            url: 'https://x.com/idimetrix',
-            icon: faTwitter,
          },
       ],
    },
@@ -187,12 +148,11 @@ export const RESUME: Resume = {
    ],
 
    keywords: [
-      'Dmitrii Selikhov',
-      'Dmitry Selikhov',
-      'idimetrix',
-      'CTO',
-      'Software Architect',
-      'Technical Lead',
+      'Aleksandr Frolov',
+      'Alex Frolov',
+      'alexfrxx',
+      'Frontend Developer',
+      'Fullstack Developer',
       'JavaScript',
       'TypeScript',
    ],

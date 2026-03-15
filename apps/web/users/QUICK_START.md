@@ -47,7 +47,7 @@ touch janedoe/index.ts
 
 ```
 users/
-  ├── idimetrix/
+  ├── alexfrxx/
   │   └── index.ts (all data here)
   └── yournewuser/
       └── index.ts (all data here)
@@ -57,7 +57,7 @@ users/
 
 ```
 users/
-  ├── idimetrix/
+  ├── alexfrxx/
   │   ├── index.ts
   │   ├── EXPERIENCES.ts
   │   ├── PROJECTS.ts

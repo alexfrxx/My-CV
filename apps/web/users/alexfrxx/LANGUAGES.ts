@@ -1,6 +1,6 @@
 export const LANGUAGES: Record<string, string> = {
-   English: 'Native',
-   Spanish: 'Proficient',
+   English: 'Proficient',
+   Polish: 'Proficient',
    Ukrainian: 'Proficient',
    Russian: 'Native',
 }
