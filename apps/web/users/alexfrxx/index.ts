@@ -17,8 +17,8 @@ export const RESUME: Resume = {
    firstName: 'Alex',
    lastName: 'Frolov',
    name: 'Aleksandr Frolov',
-   nick: 'alexfrxx',
-   gender: 'male',
+   nick: '',
+   gender: '',
    nameLink: 'https://www.linkedin.com/in/AleksandrFrolov2809/',
 
    initials: 'DS',
